@@ -132,6 +132,13 @@ smart_menu:
   friends: '实用网站'
   aboutme: '关于我'
 
+# 网易云音乐插件
+music:
+  enable: true
+  #id: 1332647902  # 网易云分享的ID
+  autoplay: true  # 是否开启自动播放
+
+
 friends:
   SauceNAO: https://saucenao.com/
   Nyaa: https://nyaa.si/
