@@ -4,12 +4,15 @@ menu:
   主页: /
   随笔: /tags/随笔/
 
+subtitle: 283 Production
+author: OddC
+
 # SubNav
 subnav:
-  github: "#"
-  weibo: "#"
-  rss: "#"
-  zhihu: "#"
+  github: "https://github.com/Cookiekira"
+  #weibo: "#"
+  #rss: "#"
+  #zhihu: "#"
   #qq: "#"
   #weixin: "#"
   #jianshu: "#"
@@ -17,10 +20,10 @@ subnav:
   #segmentfault: "#"
   #bilibili: "#"
   #acfun: "#"
-  #mail: "mailto:litten225@qq.com"
+  mail: "saefumikap@gmail.com"
   #facebook: "#"
   #google: "#"
-  #twitter: "#"
+  twitter: "https://twitter.com/Monoecho2"
   #linkedin: "#"
 
 rss: /atom.xml
@@ -43,7 +46,7 @@ open_in_new: false
 
 # 打赏
 # 打赏type设定：0-关闭打赏； 1-文章对应的md文件里有reward:true属性，才有打赏； 2-所有文章均有打赏
-reward_type: 2
+reward_type: 0
 # 打赏wording
 reward_wording: '谢谢你请我吃糖果'
 # 支付宝二维码图片地址，跟你设置头像的方式一样。比如：/assets/img/alipay.jpg
@@ -65,10 +68,10 @@ top: true
 # Miscellaneous
 baidu_analytics: ''
 google_analytics: ''
-favicon: /favicon.png
+favicon: /assets/img/icon.ico
 
 #你的头像url
-avatar:
+avatar: /assets/img/ava.png
 
 #是否开启分享
 share_jia: true
@@ -91,16 +94,26 @@ changyan_conf: false
 disqus: false
 
 #5、Gitment
-gitment_owner: false      #你的 GitHub ID
-gitment_repo: ''          #存储评论的 repo
-gitment_oauth:
-  client_id: ''           #client ID
-  client_secret: ''       #client secret
+#gitment_owner: Cookiekira      #你的 GitHub ID
+#gitment_repo: cookiekira.github.io        #存储评论的 repo
+#gitment_oauth:
+#  client_id: c2acde8bec65d6540c9a       #client ID
+#  client_secret: 56b68afe43c2c8173b5b33153ac6a06d30d1187f       #client secret
+
+#6、gitalk评论
+gitalk:
+  enable:  true
+  githubID:  Cookiekira  
+  repo:  'gitment-comments'
+  ClientID:  'c2acde8bec65d6540c9a'
+  ClientSecret:  'cf8cdd3828f4a3e901389c3b7f3d331974644f88'
+  adminUser:  Cookiekira
+  distractionFreeMode: true
 
 # 样式定制 - 一般不需要修改，除非有很强的定制欲望…
 style:
   # 头像上面的背景颜色
-  header: '#4d4d4d'
+  header: '#D4EFDF'
   # 右滑板块背景
   slider: 'linear-gradient(200deg,#a0cfe4,#e8c37e)'
 
@@ -116,15 +129,13 @@ slider:
 #  friends: false
 smart_menu:
   innerArchive: '所有文章'
-  friends: '友链'
+  friends: '实用网站'
   aboutme: '关于我'
 
 friends:
-  友情链接1: http://localhost:4000/
-  友情链接2: http://localhost:4000/
-  友情链接3: http://localhost:4000/
-  友情链接4: http://localhost:4000/
-  友情链接5: http://localhost:4000/
-  友情链接6: http://localhost:4000/
+  SauceNAO: https://saucenao.com/
+  Nyaa: https://nyaa.si/
+  vol.moe: http://vol.moe/
+  Process On: https://www.processon.com/
 
-aboutme: 很惭愧<br><br>只做了一点微小的工作<br>谢谢大家
+aboutme: 怪物猎人系列<br>小岛秀夫粉丝<br>Dota2<br>一般通过主机玩家
